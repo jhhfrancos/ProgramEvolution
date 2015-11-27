@@ -1,0 +1,9 @@
+#gnuplot> set title 'GraficaForce'  
+#gnuplot> set ylabel 'FrameRate'  
+#gnuplot> set xlabel 'time'     
+#gnuplot> set datafile separator ","
+#gnuplot> set grid
+#gnuplot> set term png   
+#gnuplot> set output 'C:\Users\Jhh\Desktop\salida.png'  
+#//gnuplot> plot 'D:\Computacion Visual\BenchMarketing\data\new.csv'
+#gnuplot> plot 'D:\Computacion Visual\BenchMarketing\data\new.csv' using 1:2 with lines
